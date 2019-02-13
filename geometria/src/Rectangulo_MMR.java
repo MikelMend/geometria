@@ -8,10 +8,10 @@ public class Rectangulo_MMR extends FiguraGeometrica_MMR {
 	private double l1;
 	private double l2;
 	/**
-	 * Constructor
-	 * @param  tipoFigura 
-	 * @param  lG 
-	 * @param  lP
+	 * Constructor 
+	 * @param  tipoFigura  forma
+	 * @param  lG lado G
+	 * @param  lP lado P
 	 */
 	public Rectangulo_MMR(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
