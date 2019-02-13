@@ -7,6 +7,10 @@ public class Circulo_MMR extends FiguraGeometrica_MMR {
 	public Circulo_MMR(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		
+		if (r<0) {
+			r=r*+1;
+		}
 	}
 
 	@Override
